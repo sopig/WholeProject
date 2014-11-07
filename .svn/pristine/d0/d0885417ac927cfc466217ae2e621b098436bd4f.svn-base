@@ -1,0 +1,19 @@
+//
+//  NT_SpeedShowWindow.h
+//  NaiTangApp
+//
+//  Created by sandy on 14-3-2.
+//  Copyright (c) 2014年 sandy. All rights reserved.
+//
+//  下载速度
+
+#import <UIKit/UIKit.h>
+
+@interface NT_SpeedShowWindow : UIWindow
+
+@property (nonatomic,strong) UILabel *textLabel;
+
++ (void)showSpeed:(double)speed;
++ (void)hideSpeedView;
+
+@end

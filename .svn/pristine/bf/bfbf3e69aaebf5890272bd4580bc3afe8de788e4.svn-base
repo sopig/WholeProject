@@ -1,0 +1,22 @@
+//
+//  NT_UncaughtExceptionHandler.h
+//  NaiTangApp
+//
+//  Created by sandy on 14-3-2.
+//  Copyright (c) 2014年 sandy. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface NT_UncaughtExceptionHandler : NSObject <UIAlertViewDelegate>
+{
+    BOOL dismissed;
+}
+@property (nonatomic,strong) NSException *exceptions;
+
+@end
+
+void HandleException(NSException *exception);
+void SignalHandler(int signal);
+void InstallUncaughtExceptionHandler(void);
+

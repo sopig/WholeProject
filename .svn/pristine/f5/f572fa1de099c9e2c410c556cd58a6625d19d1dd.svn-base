@@ -1,0 +1,19 @@
+//
+//  NT_IntroduceInfo.m
+//  NaiTangApp
+//
+//  Created by sandy on 14-3-6.
+//  Copyright (c) 2014年 sandy. All rights reserved.
+//
+
+#import "NT_IntroduceInfo.h"
+
+@implementation NT_IntroduceInfo
+
++ (NT_IntroduceInfo *)detailInfoFromDic:(NSDictionary *)dic
+{
+    NT_IntroduceInfo *info = [[NT_IntroduceInfo alloc] init];
+    return info;
+}
+
+@end

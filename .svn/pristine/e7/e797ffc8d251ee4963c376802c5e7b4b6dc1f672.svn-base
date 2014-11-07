@@ -1,0 +1,18 @@
+//
+//  NT_AboutViewController.h
+//  NaiTangApp
+//
+//  Created by sandy on 14-3-29.
+//  Copyright (c) 2014年 sandy. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface NT_AboutViewController : UIViewController
+
+@property (strong,nonatomic) UIButton *versionButton;
+@property (strong,nonatomic) UIButton *weiboButton;
+@property (strong,nonatomic) UIButton *wapButton;
+@property (strong,nonatomic) UIView *aboutView;
+
+@end

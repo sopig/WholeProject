@@ -1,0 +1,22 @@
+//
+//  NT_BaseAppInfo.m
+//  NaiTangApp
+//
+//  Created by sandy on 14-3-3.
+//  Copyright (c) 2014年 sandy. All rights reserved.
+//
+
+#import "NT_BaseAppInfo.h"
+
+@implementation NT_BaseAppInfo
+
++ (NT_BaseAppInfo *)inforFromDetailArray:(NSMutableArray *)array
+{
+    NT_BaseAppInfo *info = [[NT_BaseAppInfo alloc] init];
+    info.selected = NO;
+    info.selectIndex = -1;
+    info.infoArray = array;
+    return info;
+}
+
+@end

@@ -1,0 +1,16 @@
+//
+//  NT_CustomButtonStyle.h
+//  NaiTangApp
+//
+//  Created by sandy on 14-3-12.
+//  Copyright (c) 2014年 sandy. All rights reserved.
+//
+//  自定义按钮样式
+
+#import <Foundation/Foundation.h>
+
+@interface NT_CustomButtonStyle : NSObject
+
+- (void)customButton:(UIButton *)btn title:(NSString *)title titleColor:(UIColor *)color font:(UIFont *)font bgImage:(UIImage *)bgImage highlightedImage:(UIImage *)highlightedImage;
+
+@end
