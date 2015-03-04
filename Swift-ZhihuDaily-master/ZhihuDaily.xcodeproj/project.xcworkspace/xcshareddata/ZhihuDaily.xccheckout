@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>035BCB37-6B94-472C-ABC3-3849F145D495</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ZhihuDaily</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E61B2F08F6F064FA470CEA9D1984C3521DA6511B</key>
+		<string>https://github.com/ddapps/WholeProject.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Swift-ZhihuDaily-master/ZhihuDaily.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E61B2F08F6F064FA470CEA9D1984C3521DA6511B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ddapps/WholeProject.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E61B2F08F6F064FA470CEA9D1984C3521DA6511B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E61B2F08F6F064FA470CEA9D1984C3521DA6511B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>project</string>
+		</dict>
+	</array>
+</dict>
+</plist>
