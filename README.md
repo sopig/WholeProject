@@ -1,3 +1,5 @@
+http://segmentfault.com/a/1190000000364677
+
 通过网络几篇文章整理的大致全面的教程。
 
 1.安装Octopress
@@ -157,46 +159,34 @@ hexo —— 简单、快速、强大的Node.js静态博客框架 13 收藏，8.4
 1
 添加头像“在_config.yml文件中设置一个email，然后到gravatar网站上添加该email并上传一张头像”这一步，是直接在_config.yml 中这样写“email: xxx.gmail.com”（没有双引号）这样就可以了吗？gravatar网站我注册了，也上传了头像，最后还是没有看到效果，还需要弄其他地方的吗？
 
-#1 我_阿元 · 2014年12月29日 · 回复
+
 
  
-回复 我_阿元：
-# RSS feeds can list your email address if you like
-email: sgxiang1992@icloud.com
-#2 Yaashion_向 · 1月4日 · 回复
+
 
  
 回复 我_阿元：
 email和地址间要空格 email应该有@的吧
 还有确认下是否真的上传成功头像和你的邮箱绑定了
 
-#3 Yaashion_向 · 1月4日 · 回复
 
  
 回复 Yaashion_向：
 恩，谢谢，已经修改成功。绑定成功之后是有时间延迟的，后来它就自己好了。
 
-#4 我_阿元 · 1月5日 · 回复
 
- 
 我在搭建过程中，遇到了一个10.9以后新版本OS X带来的问题。就是bundle install，总是失败，提示mac Error installing RedCloth:，后来我参考了stackoverflow推荐的链接http://stackoverflow.com/questions/26543572/failed-to-install-redcloth-with-ruby-2-0-0p451on-mac-os-x-10-9-4-and-xcode-versi，就是要在终端输入xcode-select --install。然后才ok，希望能给遇到同样问题的人帮助
-
-#5 熊熊的狮子 · 1月25日 · 回复
 
  
 回复 熊熊的狮子：
 想不到还有人看。。 我记得我之前也遇到过 谢谢啊~
 
-#6 Yaashion_向 · 1月25日 · 回复
 
- 
 回复 Yaashion_向：
 想不到博主还在，我遇到一个上传文章的问题，最后push文章到github，git push origin source，总是失败，提示remote: Repository not found.
 fatal: repository 'https://github.com/projectname/projectname.github.io/' not found。这是怎么解决啊
 
-#7 熊熊的狮子 · 1月25日 · 回复
 
- 
 回复 熊熊的狮子：
 rake setup_github_pages
 弹出之后输入git@github.com:your_username/your_username.github.com.git不要用提示的io，我的是git@github.com/sgxiang/sgxiang.github.com.git
@@ -204,7 +194,4 @@ rake setup_github_pages
 看下你这个配置对不对
 而且你这个 https://github.com/projectname/projectname.github.io/ 我在github上找不到
 
-#8 Yaashion_向 · 1月25日 · 回复
-
-请先 登录 后评论
 
